@@ -3,6 +3,11 @@
 
 body {
   background: #f5f3f3;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 p {
@@ -12,4 +17,13 @@ p {
     0 0 15px rgb(255, 0, 242), 0 0 20px rgb(255, 0, 242),
     0 0 25px rgb(255, 0, 242), 0 0 40px rgb(255, 0, 242),
     0 0 50px rgb(255, 0, 242), 0 0 60px rgb(246, 255, 164);
+}
+
+
+.contenedor {
+  flex-grow: 1;
+}
+
+footer {
+  margin-top: auto;
 }
