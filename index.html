@@ -22,43 +22,67 @@
     <title>Reloj</title>
   </head>
   <body>
-    <header><nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
           <a class="navbar-brand" href="#">Tu Reloj</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Temporizador</a>
+                <a class="nav-link" aria-current="page" href="#"
+                  >Temporizador</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Cronometro</a>
               </li>
               <li class="nav-item dropdown">
-                <span class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <i class="bi bi-moon-stars-fill"></i>
+                <span
+                  class="nav-link dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="bi bi-moon-stars-fill"></i>
                 </span>
                 <ul class="dropdown-menu">
-                  <li><button class="dropdown-item" ><i class="bi bi-sun"></i> Light</button></li>
-                  <li><button class="dropdown-item" ><i class="bi bi-moon-stars-fill"></i> Dark</button></li>
-
+                  <li>
+                    <button class="dropdown-item">
+                      <i class="bi bi-sun"></i> Light
+                    </button>
+                  </li>
+                  <li>
+                    <button class="dropdown-item">
+                      <i class="bi bi-moon-stars-fill"></i> Dark
+                    </button>
+                  </li>
                 </ul>
               </li>
-              
             </ul>
-           
           </div>
         </div>
-      </nav></header>
+      </nav>
+    </header>
     <main>
-      <section class="container my-5 text-center fs-1 ">
-        <p>Jueves 13 de Abril del 2023</p>
-        <p>17:10:00</p>
+      <section class="container my-5 text-center fs-1">
+        <h1 id="fecha">Jueves 13 de Abril del 2023</h1>
+        <h2 id="hora">17:10:00</h2>
       </section>
     </main>
-    <footer class="bg-dark text-light text-center py-3">&copyTodos los derechos reservados</footer>
+    <footer class="bg-dark text-light text-center py-3">
+      &copyTodos los derechos reservados
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
