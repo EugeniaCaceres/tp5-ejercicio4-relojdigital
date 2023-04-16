@@ -28,7 +28,12 @@ function get_hora() {
   let hora = fechaActual.getHours();
   let minutos = fechaActual.getMinutes();
   let segundos = fechaActual.getSeconds();
-
+  if (segundos < 10) {
+    segundos = "0" + segundos;
+  }
+  if (minutos < 10) {
+    minutos = "0" + minutos;
+  }
   let dia = fechaActual.getDay();
   let dia_num = fechaActual.getDate();
 
