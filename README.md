@@ -10,12 +10,12 @@
 - Sin prerequisitos.
 
 ## 👇Instalación:
-Pirmero. Descargar repositorio de github, clonando el repositorio desde: 
+Pirmero. Descargar repositorio de github, clonando el repositorio desde: https://github.com/EugeniaCaceres/tp5-ejercicio4-relocdigital.git
 
 
 Segundo. Abrir una terminal, en la ubicación que desea. Copiar el link del repositorio y con el comando git clone lo clonas al repositorio.
 ```
-git clone 
+git clone https://github.com/EugeniaCaceres/tp5-ejercicio4-relocdigital.git
 
 ```
 
@@ -23,6 +23,7 @@ Luego para visualizar el ejercicio, hacer clic en el live server. Y listo, ya pr
 
 ## ⚒️Herramientas utilizadas:
 - [Bootstrap v5.3](https://getbootstrap.com/)
+- [Google fonts](https://fonts.google.com/)
 - Java script.
 - css
 - html
