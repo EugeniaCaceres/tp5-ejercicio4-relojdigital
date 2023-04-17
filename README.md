@@ -10,12 +10,12 @@
 - Sin prerequisitos.
 
 ## 👇Instalación:
-Pirmero. Descargar repositorio de github, clonando el repositorio desde: https://github.com/EugeniaCaceres/tp5-ejercicio4-relocdigital.git
+Pirmero. Descargar repositorio de github, clonando el repositorio desde: https://github.com/EugeniaCaceres/tp5-ejercicio4-relojdigital.git
 
 
 Segundo. Abrir una terminal, en la ubicación que desea. Copiar el link del repositorio y con el comando git clone lo clonas al repositorio.
 ```
-git clone https://github.com/EugeniaCaceres/tp5-ejercicio4-relocdigital.git
+git clone https://github.com/EugeniaCaceres/tp5-ejercicio4-relojdigital.git
 
 ```
 
